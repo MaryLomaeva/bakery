@@ -1,4 +1,96 @@
 .body {
 	margin: 0;
 	padding: 0;
+	background: #000;
 } 
+.header {
+	position: absolute;
+	top:10px;
+	padding: 6px 0;
+	width: 100%;
+}
+.header__container {
+	width: 1260px;
+	margin: 0 auto;
+}
+.header__container-logo {
+	float: left;
+	margin-right: 280px;
+}
+.header__container-navigation {
+	float: left;
+}
+.header__container-category {
+	float: left;
+	margin-right: 50px;
+	list-style-type: none;
+}
+/* hz nado ili net
+.header__container-category:last-child {
+	margin-right: 0;
+}
+*/
+.header__container-category-item:hover {
+	color: #914800;
+}
+.header__container-category-item {
+	font: 14px Centaur, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header__social {
+	float: right;
+	padding-top: 20px;
+	
+}
+.header__social-items {
+	margin-right: 5px;
+}
+
+.bg {
+	width: 100%;
+	height: 900px;
+	background: #fff url(../img/bg.png) no-repeat; 
+	position: center bottom;
+	text-align: center;
+	color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.bg__container {
+	padding-top: 300px;
+}
+.bg__headline {
+	font: 92px Myried Pro, sans-serif;
+	padding-bottom: 150px;
+	margin: 0;
+}
+.bg__headline-smaller {
+	font: 24px Myried Pro, sans-serif;
+	padding-bottom: 60px;
+	margin:0;
+}
+.bg__btn {
+	display: inline-block;
+	color: #fff;
+	font: bold 14px Myried Pro, sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	background: #626360;
+	padding: 10px 15px;
+	filter: alpha(Opacity=70);
+	-moz-opacity: 0.7;
+	-webkit-khtml-opac: ;
+	-moz-khtml-opac: ;
+	-ms-khtml-opac: ;
+	-o-khtml-opac: ;
+	opacity: 0.7;
+}
+.bg__btn:hover {
+	background: #3D3E3B;
+}
+
